@@ -1,0 +1,88 @@
+{
+  "name": "ui-image-assessment",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@mdi/font": "^3.6.95",
+    "@vue/eslint-config-standard": "^4.0.0",
+    "autolinker": "^3.0.5",
+    "autosize": "^4.0.2",
+    "aws-amplify": "^1.1.27",
+    "aws-amplify-vue": "^0.2.10",
+    "axios": "^0.18.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-2": "^6.24.1",
+    "copy-webpack-plugin": "^5.0.3",
+    "core-js": "^2.6.5",
+    "css-loader": "^2.1.1",
+    "emoji-js": "^3.4.1",
+    "escape-goat": "^2.0.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-html": "^5.0.3",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-promise": "^4.1.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "highlight.js": "^9.15.6",
+    "jwt-decode": "^2.2.0",
+    "konva": "^3.2.5",
+    "loadsh": "^0.0.4",
+    "lsd": "^0.0.1",
+    "marked": "^0.6.2",
+    "material-design-icons-iconfont": "^5.0.1",
+    "moment": "^2.24.0",
+    "msgdown": "^1.0.2",
+    "node-sass": "^4.11.0",
+    "sass-loader": "^7.1.0",
+    "v-tooltip": "^3.0.0-alpha.7",
+    "vue": "^2.6.10",
+    "vue-axios": "^2.1.4",
+    "vue-beautiful-chat": "^2.2.2",
+    "vue-konva": "^2.0.4",
+    "vue-loading-overlay": "^3.2.0",
+    "vue-router": "^3.0.1",
+    "vuetify": "^1.5.10",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.5.0",
+    "@vue/cli-plugin-eslint": "^3.5.1",
+    "@vue/cli-service": "^3.5.0",
+    "@vue/eslint-config-airbnb": "^4.0.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.8.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "vue-template-compiler": "^2.5.21"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended",
+      "@vue/airbnb"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
