@@ -14,7 +14,7 @@
     "autosize": "^4.0.2",
     "aws-amplify": "^1.1.27",
     "aws-amplify-vue": "^0.2.10",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "babel-plugin-transform-runtime": "^6.23.0",
     "babel-preset-env": "^1.7.0",
     "babel-preset-stage-2": "^6.24.1",
